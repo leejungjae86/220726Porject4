@@ -10,6 +10,8 @@ public:
 	Player()
 	{
 		Shape = 'P';
+		Location.X = 1;
+		Location.Y = 1;
 	}
 	virtual ~Player() {}
 

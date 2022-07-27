@@ -2,6 +2,7 @@
 
 class Vector2D
 {
+public:
 	Vector2D() : X(0), Y(0)
 	{
 	}

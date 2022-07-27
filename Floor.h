@@ -4,10 +4,12 @@
 class Floor : public Actor
 {
 public:
-	Floor() {}
+	Floor()
+	{
+		Shape = ' ';
+	}
 	virtual ~Floor()
 	{
-		Shape = '*';
 	}
 
 };

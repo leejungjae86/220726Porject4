@@ -4,10 +4,14 @@
 class Monster : public Actor
 {
 public:
-	Monster() {}
-	virtual ~Monster()
+	Monster()
 	{
 		Shape = 'M';
+		Location.X = 6;
+		Location.Y = 6;
+	}
+	virtual ~Monster()
+	{
 	}
 
 };

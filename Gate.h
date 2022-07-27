@@ -4,10 +4,12 @@
 class Gate : public Actor
 {
 public:
-	Gate() {}
-	virtual ~Gate()
+	Gate()
 	{
 		Shape = 'G';
+	}
+	virtual ~Gate()
+	{
 	}
 
 };

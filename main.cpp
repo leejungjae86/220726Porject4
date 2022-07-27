@@ -6,9 +6,7 @@
 #include "Monster.h"
 #include <list>
 #include <vector>
-
-
-
+#include <stack>
 
 
 int main()
@@ -17,8 +15,18 @@ int main()
 	//std::vector<int> VA;
 	//std::stack<int> SA;
 
-	//for (auto iter = VA.be
+	//VA.push_back(0);
+	//VA.push_back(1);
+	//VA.push_back(2);
+	//for (auto Value : VA)
 	//{
+	//	std::cout << Value << std::endl;
+	//}
+	//for (int i = 0;
+	//	i < A.size();
+	//	++i)
+	//{
+	//	std::cout << A[i] << std::endl;
 
 	//}
 

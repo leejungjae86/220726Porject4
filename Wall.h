@@ -6,7 +6,7 @@ class Wall : public Actor
 public:
 	Wall()
 	{
-		Shape = ' ';
+		Shape = 'W';
 	}
 	virtual ~Wall() {}
 
